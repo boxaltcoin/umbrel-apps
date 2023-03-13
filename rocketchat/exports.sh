@@ -1,4 +1,5 @@
 export PORT="3000"
-
+export DEPLOY_PLATFORM="docker"
+export docker="127.0.0.1"
 local_ips=$(hostname --all-ip-addresses 2> /dev/null) || local_ips=""
 export ROOT_URL="${local_ips}"
